@@ -1,0 +1,147 @@
+.topbar{
+    display: flex;
+    justify-content: flex-start;
+}
+.logo{
+    padding: 14px;
+}
+
+.midnav{
+    display: flex;
+    flex-grow: 2;
+    justify-content:flex-start;
+    align-items: center;
+    display: flex;
+    flex-direction: row;  
+}
+.form{
+    display: flex;
+    border: 2px solid #e8eaef;
+    border-radius: 84px;
+    height: 50px;
+    padding-left: 10px;
+    margin-top: 4px;
+    justify-content: center;
+    align-items: center;
+}
+#form{
+ border: none;
+ background-color: -internal-light-dark(rgb(255, 255, 255), rgb(255, 255, 255));
+    color: -internal-light-dark(white, white);
+}
+input{
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(255, 255, 255));
+    color: -internal-light-dark(white, white);
+}
+.search img{
+    padding: 10px;
+    margin-right:3px ;
+}
+.topryt{ 
+    border: 2px solid black ;
+}
+#setting{
+    height: 28px;
+}
+#bars{
+    padding: 19px 15px 7px 7px;
+    height: 16px;
+}
+#prof{
+    padding: 1px ; 
+}
+nav{
+    margin: 30px 0px 10px 80px; 
+}
+ul#navlist li{
+    
+    display: inline;
+    padding: 10px;
+}
+p{
+    margin: 10px 0px 30px 130px;
+    color: rgba(128, 128, 128, 0.897);  
+}
+
+.results{
+    margin-left: 90px;
+    
+	/* border: 2px solid black; */
+    width: 700px;
+   
+}
+#result h2{
+    color: #660099;
+    font: 20px arial, sans serif;
+    
+    /* color: #1a0dab; */
+}
+
+ul#result li{
+    list-style: none;
+    align-content: left;
+    margin-top: -20px;
+    line-height: 30px;
+    color: #4D5156;
+}
+ul#sublist a{
+    font: 20px arial, sans serif;
+    color: #1a0dab;
+}
+.para{
+    align-content: left;
+    line-height: 50px;
+}
+ul#sublist li{
+    line-height: 40px;
+}
+#sublist{
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+}
+#line {
+	position: absolute;
+	clear: both;
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	top: 87px;
+	left: -1px;
+	border-bottom: 1px solid #dcdcdc;
+	width: 510px;
+}
+
+#gooogle {
+	position: absolute;
+	clear: both;
+	float: left;
+	top: 150px;
+	left: 105px;
+	vertical-align: middle;
+}
+ul#nums li{
+    display: inline;
+    list-style: none;
+}
+#nums{
+    margin: 0px 0px 10px 170px;
+}
+.gfooter {
+    margin-left: 170px;
+}
+.one{
+    color:#1a0dab ;
+}
+
+@media (min-width:360px) and (max-width:740px){
+    .logo{
+        display: block;
+    height: 64px;
+    position: relative;
+    width: 100%;
+}
+
+    }
+    
